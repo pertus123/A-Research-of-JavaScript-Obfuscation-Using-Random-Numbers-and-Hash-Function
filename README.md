@@ -104,9 +104,7 @@ fi
 [JsKeyword.txt]
 - ECMAscript의 표준에 의한 키워드 및 예약어, 없는 키워드는 수동으로 입력
 
-***
-
-- makefile 구성
+[makefile 구성]
 ```
 exetesthtml2: test.o sha256.o				// 실행될 파일명 exetesthtml1, 2로
 	g++ -o exetesthtml2 test.o sha256.o		// 변경하면서 수행
@@ -119,6 +117,7 @@ clean:
 ```
 <br>
 <br>
+
 원본 및 서비스 파일 위치 변경
 -------------
 
@@ -155,11 +154,11 @@ clean:
 
 <br>
 
-![Alt text](/img/website_security.jpg)
+![Alt text](/img/website_security.JPG)
 
 <br>
 
-![Alt text](/img/javascript_img.jpg)
+![Alt text](/img/javascript_img.JPG)
 
 <br>
 <br>
@@ -177,7 +176,7 @@ clean:
 * 예외적인 함수 키워드를 찾기 위한 1 - PASS 전처리 작업 후 난독화 수행
 * 2개의 난독화 파일을 생성하여, 웹 서비스는 일정 시간마다 디렉터리 포인트를 변경하며 성공적으로 수행된다면 다음 디렉터리의 난독화를 수행
   
-![Alt text](/img/TheProposedObfuscationProcess.jpg)
+![Alt text](/img/TheProposedObfuscationProcess.JPG)
 
 <br>
 
@@ -189,7 +188,7 @@ Obfuscation Using Hash Function
 *  Salt 값을 사용함으로써, 해시함수 결과의 충돌가능성을 낮추고, 난독화의 결과값을 정기적으로 바꿈으로써, 유추 가능성 또한 낮출 수 있음.
 *  출력 값이 64 byte로 고정되어있기 때문에 파일이 커지고, 저장 공간 낭비와 파일을 읽을 때 시간 증가 문제점이 발생. 이를 해결하기 위해 난독화 슬라이드 수행.
 
-![Alt text](/img/hash_function.jpg)
+![Alt text](/img/hash_function.JPG)
 
 <br>
 
@@ -199,16 +198,18 @@ Obfuscation Using Hash Function
 * 해시 함수 난독화와 함께 로직 변경 진행.
 * 변경되는 제어문은 for 문, while 문, do-while 문 등의 3 종이며, 각 제어문의 기능은 그대로 유지한 채로 함수형으로 변경.
 
-![Alt text](/img/logic_change_for.jpg)
+![Alt text](/img/logic_change_for.JPG)
 
-![Alt text](/img/logic_change_for2.jpg)
+![Alt text](/img/logic_change_for2.JPG)
 
 <br>
 <br>
+
+***
 
 참고 문헌
 -------------
-***
+
 [1] 김영호, 최동식, 여상수 (2019). 난수 및 해시함수를 이용한 자바스크립트 난독화 방안 연구. JOURNALOF PLATFORM TECHNOLOGY, 7(4), 49-56
 
 [2] Young-Ho Kim, Dong-Sik Choi, Sang-Soo Yeo, “A Research of JavaScript Obfuscation Using Random Numbers,” 2019 Summer Conference of ICT Platform Society, pp. 111-113, 2019.
