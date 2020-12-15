@@ -1,0 +1,212 @@
+
+	html, body{
+		height: 100%;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family: 'Varela', sans-serif;
+		font-size: 10pt;
+		font-weight: 300;
+		color: #656565;
+	}
+	
+	#wrapper
+	{
+		background: #FFF;
+	}
+
+	#header-wrapper
+	{
+		background: #333333;
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 3em 0em;
+	}
+
+	#logo
+	{
+		position: absolute;
+		top: 1em;
+		left: -0em;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #FFF;
+		padding : 0em 1em 1em 1em;
+	}
+
+	#menu
+	{
+		position: absolute;
+		top: 2em;
+		right : 0em;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	/*<!-- -->*/
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: #FFF;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: #FFF;
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #009E2D;
+		color: #FFF;
+	}
+
+	#banner23
+	{
+		overflow: hidden;
+		padding: 0em 39em 0em 0em;
+
+		background: #202020;
+		background-size: cover;
+		text-align: center;
+		color: rgba(255,255,255,8);
+
+	}
+	.container
+	{
+		overflow: visible;
+		margin: 0em auto;
+		width: 1000px;
+	}
+
+
+	#extra
+	{
+		overflow: hidden;
+		padding: 1em 0em;
+	}
+	
+	#extra .title
+	{
+		text-align: center;
+	}
+	
+	#extra .button
+	{
+		margin-top: 5em;
+	}
+	
+	#extra .fa
+	{
+		display: block;
+		margin-bottom: 0.5em;
+		text-align: center;
+		font-size: 3em;
+	}
+
+    ul.actions
+	{
+		text-align: center;
+	}
+
+	.button
+	{
+		display: inline-block;
+		padding: 0em 3em;
+		background: #009E2D;
+		letter-spacing: 0.20em;
+		line-height: 4em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+	}
+	
+.title .byline
+	{
+		font-size: 1.7em;
+		color: #6F6F6F;
+	}
+
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 300px;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right : 20px;
+	}
+	.boxB{
+	float: left;
+		margin-left : 30px;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+
+.box
+{
+	padding: 2em 1em 2em 1em;
+	
+	border-radius: 8px;
+		text-align: center;
+		border: 1px solid rgba(0,0,0,0.1);
+
+}
+
+h2{
+font-size : 4em;
+}
+
+#sogeWrite {
+	color: rgb(0, 0, 0); font-size: 20px;
+}
+#sagin {
+	padding: 0em 2em 2em;
+}
+#won {
+	padding: 0em 2em 2em;
+}
+#neyong {
+	color: rgb(0, 0, 0); 
+	font-size: 20px; 
+	background-size: 100%;
+}
+
+#binback{
+margin : 20em 0em 20em 0em;
+
+}

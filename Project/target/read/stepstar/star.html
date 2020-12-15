@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+ function test() {
+  //이중 for문.
+  var str = "";
+  for (var m=0; m<5; m++) {
+   for (var i=0; i<=m; i++) {
+    str += "* ";
+   }
+   str += "\n";
+  }
+  
+  alert(str);
+ }
+</script> 
+</head>
+<body>
+<input type="button" value="star start!" onclick="test();">
+</body>
+</html>
