@@ -179,8 +179,9 @@ clean:
 ![Alt text](/img/TheProposedObfuscationProcess.JPG)
 
 
+<br>
+
 * 하나의 테이블을 생성한 후, 52개의 키(Key)(A-Z, a-z)와 키에 대응하는 값(Value)을 난수로 생성하여 난독화 테이블을 생성
-  
 * 사용자가 원하는 보안 강도에 따라 값의 길이 결정. 값의 길이는 키에 대응하는 난수의 길이를 정하는 것으로, 키에는 각 문자가 들어가고 값에는 문자에 대해 사용자가 정한 값의 길이만큼의 난수 삽입
 
 ![Alt text](/img/Obfuscation_table.JPG)
